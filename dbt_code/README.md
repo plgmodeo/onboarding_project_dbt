@@ -1,15 +1,19 @@
-Welcome to your new dbt project!
+# Onboarding Project Dbt
 
-### Using the starter project
+### Main folders
 
-Try running the following commands:
-- dbt run
-- dbt test
+* _macros/_
+* _models/_
 
+### Structure
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Les données brutes arrivent de BigQuery dans models/staging/datagouv_izivia_bigquery/_raw_data_/
+et certaines subissent des nettoyages.
+
+Elles sont ensuites fusionnées dans models/staging/datagouv_izivia_bigquery/raw_data/_datagouv_izivia_8_cleaned.sql_
+
+Jusque là ce ne sont que des vues, ensuite ce sont des tables.
+
+Les données subissent leurs dernières modifications dans models/staging/datagouv_izivia_bigquery/_stg_datagouv_izivia_bigquery__bornes.sql_
+
+Pour créer les KPIs que nous nous sommes fixés dans le docx, je numérote les tables de q1 à q13 (juste pour repérer plus rapidement quel code répond à quel question).
