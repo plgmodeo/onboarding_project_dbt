@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: q1__nb_stations__par__localite
+  - name: q2__pourcentage__stations__par__type__localisation
+  - name: q3__nb_moyen__pdc__par__station__par__localite
+  - name: q4__disponibilite__differents__types__prises
+  - name: q5__pourcentage__stations__option__paiement
+  - name: q6__pourcentage__stations__accessibilite__pmr
+  - name: q7__distribution__gabarit__par__localite
+  - name: q8__pct__stations__deux__roues
+  - name: q9__raccordement__direct__pct
+  - name: q10__date__diff
+  - name: q11__recence__moyenne__maj
+  - name: q12__infos__tarifs
+  - name: q13__infos__horaires
