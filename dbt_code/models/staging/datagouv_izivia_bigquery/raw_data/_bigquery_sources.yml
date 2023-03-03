@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: bornes_irve_pierrelouis
+    freshness:
+      warn_after:
+        count: 6
+        period: day
+      error_after:
+        count: 8
+        period: day
+    loaded_at_field: _etl_loaded_at
+    tables:
+      - name: bornes-de-recharges-avia
+      - name: bornes-de-recharges-reseau-mobive-sdeer-17-irve-mobive
+      - name: bornes-de-recharges-reseau-mobive-sehv87-irve-mobive
+      - name: bornes-de-recharges-sigeif-1
+      - name: bornes-de-recharges-soregies
+      - name: bornes-de-recharges-wiiiz
+      - name: bornes-de-recharges-zenpark
+      - name: izivia-metropole-aix-marseille-provence-1

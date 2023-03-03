@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: datagouv_izivia_8_cleaned
+  - name: bornes_de_recharges_avia
+  - name: bornes_de_recharges_reseau_mobive_sdeer_17_irve_mobive
+  - name: bornes_de_recharges_reseau_mobive_sehv87_irve_mobive
+  - name: bornes_de_recharges_sigeif_1
+  - name: bornes_de_recharges_soregies
+  - name: bornes_de_recharges_wiiiz
+  - name: bornes_de_recharges_zenpark
+  - name: izivia_metropole_aix_marseille_provence_1

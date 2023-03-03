@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_datagouv_izivia_bigquery__bornes
+    description: Formatted data after union on all sources
+    columns:
+      - name: id
+        decription: id of the row
+        tests:
+          - unique
+          - not_null
